@@ -1,4 +1,4 @@
-/* Generated on: Mon Jul 19 2021 00:25:42 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Jul 26 2021 18:38:28 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -20,33 +20,35 @@ body {
 }
 
 h1 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 38px;
-  line-height: 44px;
-  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Labgrotesque, sans-serif;
+  color: #202020;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
 }
 
 h2 {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: 'Tenor Sans', sans-serif;
-  color: #000;
-  font-size: 30px;
+  font-family: Labgrotesque, sans-serif;
+  color: #202020;
+  font-size: 34px;
   line-height: 36px;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 
 h3 {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: 'Tenor Sans', sans-serif;
+  font-family: Labgrotesque, sans-serif;
   color: #000;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 
 h4 {
@@ -76,11 +78,19 @@ h6 {
 p {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: 'Source Serif Pro', sans-serif;
-  color: #000;
-  font-size: 18px;
+  font-family: 'Helvetica neue lt 45', sans-serif;
+  color: #202020;
+  font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 300;
+}
+
+a {
+  font-family: 'Helvetica neue lt 45', sans-serif;
+  color: #202020;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: underline;
 }
 
 ul {
@@ -123,11 +133,11 @@ blockquote {
   border-top-color: #000;
   border-left-width: 5px;
   border-left-color: #e2e2e2;
-  font-family: 'Source Serif Pro', sans-serif;
-  color: #000;
+  font-family: 'Helvetica neue lt 45', sans-serif;
+  color: #202020;
   font-size: 24px;
-  line-height: 36px;
-  font-weight: 700;
+  line-height: 28px;
+  font-weight: 300;
 }
 
 figure {
@@ -927,8 +937,8 @@ figcaption {
   z-index: 1;
   width: 100%;
   max-width: 1200px;
-  margin-top: 0px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .line-color {
@@ -1282,7 +1292,8 @@ figcaption {
   overflow: hidden;
   height: auto;
   max-width: 100%;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1319,6 +1330,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   max-width: 1200px;
   margin-bottom: 0px;
   padding-right: 0px;
@@ -1347,6 +1359,7 @@ figcaption {
   -ms-flex: 1;
   flex: 1;
   border-radius: 0px;
+  text-align: left;
 }
 
 .author-image-wrapper {
@@ -1372,12 +1385,19 @@ figcaption {
   background-size: cover;
 }
 
+.rich-text {
+  display: block;
+  width: 100%;
+  color: #202020;
+  text-align: left;
+}
+
 .rich-text h2 {
   color: #202020;
 }
 
 .rich-text p {
-  font-family: Suisseintl, sans-serif;
+  font-family: 'Helvetica neue lt 45', sans-serif;
   color: #202020;
   font-weight: 400;
 }
@@ -1395,8 +1415,9 @@ figcaption {
 }
 
 .rich-text h4 {
-  font-family: 'Tenor Sans', sans-serif;
-  font-weight: 400;
+  font-family: Labgrotesque, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .rich-text h5 {
@@ -1958,7 +1979,7 @@ figcaption {
   width: 100vw;
   height: 35vw;
   max-width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: 50% 50%;
@@ -2108,6 +2129,56 @@ figcaption {
 
 .featured-category-link:hover {
   text-decoration: underline;
+}
+
+.paragraph-3 {
+  color: #202020;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.link-3 {
+  border-radius: 0px;
+}
+
+.rt-container {
+  display: block;
+  width: auto;
+  max-width: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.rich-text-block {
+  display: block;
+}
+
+.rich-text-block-2 {
+  width: 1200px;
+}
+
+.rt-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 991px) {
@@ -2651,6 +2722,10 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
+  p {
+    font-size: 18px;
+  }
+
   .nav-link.white {
     margin-right: 0px;
   }
@@ -2894,7 +2969,8 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3079,7 +3155,7 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     max-width: none;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -3100,7 +3176,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 5px 0px;
+    margin: 0px 0px 5px;
     padding-right: 0px;
     padding-left: 0px;
     -webkit-box-pack: start;
@@ -3200,6 +3276,32 @@ figcaption {
   .featured-category-link {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .link-3 {
+    font-size: 18px;
+  }
+
+  .heading-7 {
+    font-size: 34px;
+  }
+
+  .heading-8 {
+    font-size: 24px;
+  }
+
+  .paragraph-4 {
+    font-size: 18px;
+  }
+
+  .block-quote {
+    font-size: 18px;
+  }
+
+  .heading-9 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 28px;
   }
 }
 
