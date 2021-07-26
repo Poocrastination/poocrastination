@@ -1,4 +1,4 @@
-/* Generated on: Mon Jul 26 2021 18:38:28 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Jul 26 2021 19:44:35 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -968,7 +968,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px 30px 90px;
+  padding: 0px 30px 30px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2830,7 +2830,7 @@ figcaption {
 
   .category-link {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   .h2 {
@@ -2957,7 +2957,7 @@ figcaption {
   }
 
   .title-section {
-    padding: 79px 20px 20px;
+    padding: 80px 20px 20px;
   }
 
   .title-section.cc-detail {
@@ -3236,7 +3236,7 @@ figcaption {
 
   .image {
     height: 75vw;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
